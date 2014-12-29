@@ -44,9 +44,11 @@ div#header
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
+	height: 150px;
 	width: 100%;
 	min-width: 1000px;
-	min-height: 100px;
+	min-height: 150px;
+	max-height: 150px;
 }
 
 div#navigation
@@ -173,4 +175,24 @@ div#footer
 	position: relative;
 	text-align: center;
 	width: 100%;
+	min-width: 100%;
+}
+
+div#footer table
+{
+	padding-top: 50px;
+	width: 100%;
+}
+
+div#footer div#FooterText
+{
+	margin-left: 380px;
+	text-align: center;
+	padding: 0px;
+}
+
+div#footer div#logos
+{
+	float: right;
+	padding: 0px;
 }
