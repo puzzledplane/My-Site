@@ -51,6 +51,11 @@ div#header
 	max-height: 150px;
 }
 
+div#header h1
+{
+	padding: 50px;
+}
+
 div#navigation
 {
 	background-color: #000000;
@@ -133,6 +138,17 @@ div.module
 	margin-bottom: 10px;
 }
 
+div#Contact li.box
+{
+	list-style: none;
+	padding: 5px;
+	border:#dedede solid 1px;
+	margin: 5px;
+	width: auto;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+}
 
 li.box
 {
