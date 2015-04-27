@@ -173,6 +173,11 @@ div#right.sidebar
 	width: 300px;
 }
 
+td.maincontent
+{
+	vertical-align: top;
+}
+
 td.sidebar
 {	
 	min-width: 300px;
